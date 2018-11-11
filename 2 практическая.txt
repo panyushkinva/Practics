@@ -1,0 +1,65 @@
+\documentclass[a4paper,11pt]{article}
+
+\usepackage[T2A]{fontenc}
+
+\usepackage[utf8]{inputenc}
+
+\usepackage[english,russian]{babel}
+
+\usepackage{tikz}
+
+\usepackage[european,cuteinductors,smartlabels]{circuitikz}
+
+\title{Практическая работа №2}
+
+\author{Панюшкин Вячеслав (8871)}
+
+\begin{document}
+
+\maketitle
+
+\begin{tikzpicture}[scale=1]
+
+\newcommand{\alfa}{20}
+
+\newcommand{\tetta}{70}
+
+\newcommand{\D}{6}
+
+\newcommand{\T}{8}
+
+\draw[thick,->,>=stealth'] (0,0) -- (10,0) node[below] {$X_1$};
+
+\draw[thick,->,>=stealth'] (0,0) -- ({10*cos(\tetta)},{10*sin(\tetta)}) node[left] {$Х_2$};
+
+\draw[thin,<->] (9,0) arc(0:70:9) node[midway,right] {$\Theta=70^\circ$};
+
+\draw[thin,->,>=stealth'] (0,0) -- ({\D*cos(\alfa)},{\D*sin(\alfa)}) node[at end, above right] {$\vec{z}$};
+
+\draw[thin,<->] (2,0) arc(0:20:2) node[midway,right] {$\alpha=20^\circ$};
+
+\draw[thin,dashed,red] ({\D*cos(\alfa) },{\D*sin(\alfa) }) -- ({\D*cos(\alfa) },0)node[at end,below] {$x_1$};
+
+\draw[thin]({\D*cos(\alfa) },{\D*sin(\alfa) }) -- (5,0) node[at end,below] {$x^1$};
+
+\draw[thin,dashed,red]({\D*cos(\alfa) },{\D*sin(\alfa) }) --
+({3.95*cos(70) },{3.95*sin(70) }) node[at end,left] {$х_1$};
+
+\draw[thin]({\D*cos(\alfa) },{\D*sin(\alfa) }) --
+({0.75*cos(\teta) },{\D*sin(\alfa) }) node[at end,left] {$х^1$};
+
+\draw[thin,dashed,blue] (0,0) -- ({\T*cos(20) },{\T*sin(-20) });
+
+\draw[blue,thin,dashed] (0,0) -- (0,8);
+
+\draw[blue,thin,->,>=stealth'] (0,0) -- ({3*cos(\tetta) },{3*sin(\tetta) }) node[ right] {$\vec{e_2}$};
+
+\draw[thin,blue] ({3*cos(\tetta ) },{3*sin(\tetta ) }) -- (0,{3/cos(20)}) node[left] {$\vec{e^2}$};
+
+\draw[blue,thin,->,>=stealth'] (0,0) -- (3,0) node[below right] {$\vec{e_1}$};
+
+\draw[thin, blue] (3,{2.2*cos(120) }) -- (3,0) node[at start,below] {$\vec{e^1}$};
+
+\end{tikzpicture}
+
+\end{document}
