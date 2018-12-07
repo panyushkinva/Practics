@@ -1,0 +1,32 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english, russian]{babel}
+
+\title{Практическая работа №1}
+\author{Панюшкин Вячеслав Александрович гр.8871} 
+% Конец преамбулы
+\begin{document}
+\maketitle
+
+Задание №1 
+
+Перевод числа 59 из десятичной системы в двоичную
+
+$$\frac{59}{2}=29,остаток (1)$$
+$$\frac{29}{2}=14,остаток (1)$$
+$$\frac{14}{2}=7,остаток (0)$$
+$$\frac{7}{2}=3,остаток (1)$$
+$$\frac{3}{2}=2,остаток (1)$$
+$$\frac{2}{2}=1,остаток (1)$$
+
+
+$$59_{10}\rightarrow 111011_{2}$$
+
+Задание №2
+
+Перевод числа 111011 из двоичной системы в десятичную
+
+$$111011_{2}\rightarrow 1\cdot 2^{5}+1\cdot 2^{4}+1\cdot 2^{3}+0\cdot 2^{2}+1\cdot 2^{1}+1\cdot 2^{0}\rightarrow 59_{10}$$
+
+\end{document}
