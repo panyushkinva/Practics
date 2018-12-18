@@ -70,23 +70,23 @@ F=\prod\limits_0^{9} (0, 1, 3, 4, 5, 6, 10, 14, 15)
 (-0.4,3) -- (-0.4,1) node[below] {$B$}
 (1,4.4) -- (3,4.4) node[right] {$ D$};
 
-\draw (0.5,0.5)  node {2} (1.5,0.5) node {6} (2.5,0.5) node {14} (0.5,1.5) node {\textcolor{red}3} (1.5,2.5) node {\textcolor{red} 5} (2.5,3.5) node {\textcolor{red} 1\textcolor{red}2} (3.5,0.5) node {10} (1.5,1.5) node {7} (2.5,1.5) node {15} (3.5,1.5) node {11} (0.5,2.5) node {1} (0.5,3.5) node {0} (1.5,3.5) node {4} (2.5,2.5) node {\textcolor{red} 1\textcolor{red}3} (3.5,2.5) node {\textcolor{red} 9} (3.5,3.5) node {\textcolor{red} 8};
+\draw (0.5,0.5)  node {8} (1.5,0.5) node {9} (2.5,0.5) node {11} (0.5,1.5) node {\textcolor{red}1\textcolor{red}2} (1.5,2.5) node {\textcolor{red} 5} (2.5,3.5) node {\textcolor{red} 3} (3.5,0.5) node {10} (1.5,1.5) node {13} (2.5,1.5) node {15} (3.5,1.5) node {14} (0.5,2.5) node {4} (0.5,3.5) node {0} (1.5,3.5) node {1} (2.5,2.5) node {\textcolor{red} 7} (3.5,2.5) node {\textcolor{red} 6} (3.5,3.5) node {\textcolor{red} 2};
 \end{tikzpicture}
 
 
 ัสอิ: F=ABCD+ABC\bar D+A\bar BCD+\bar ABCD+\bar ABC\bar D+\bar AB\bar CD+\bar AB\bar C\bar D+\bar A\bar BC\bar D+\bar A\bar B\bar CD+\bar A\bar B\bar C\bar D\\
 \\
  \begin{tikzpicture}
-\draw (0,0) rectangle  (1,1) rectangle (2,0)
+\draw (0,0) rectangle (1,1) rectangle (2,0)
 (0,1) rectangle (1,2) rectangle (2,1) rectangle (3,0) rectangle (4,1) rectangle (3,2) rectangle (2,1)
 (0,2) rectangle (1,3) rectangle (0,4)
 (1,4) rectangle (2,3) rectangle (3,4) rectangle (4,3) rectangle (3,2) rectangle (2,3) rectangle (1,3)
 (2,4.8) -- (4,4.8) node[right] {$C$}
 (-0.8,2) -- (-0.8,0) node[below] {$ A$}
 (-0.4,3) -- (-0.4,1) node[below] {$B$}
-(1,4.4) -- (3,4.4) node[right] {$D$};
+(1,4.4) -- (3,4.4) node[right] {$ D$};
 
-\draw  (0.5,0.5) node {\textcolor{red}2} (1.5,0.5) node {\textcolor{red}6} (2.5,0.5) node {\textcolor{red}1\textcolor{red}4} (0.5,1.5) node {3} (1.5,2.5) node {5} (2.5,3.5) node {12} (3.5,0.5) node {\textcolor{red}1\textcolor{red}0} (1.5,1.5) node {\textcolor{red}7} (2.5,1.5) node {\textcolor{red}1\textcolor{red}5} (3.5,1.5) node {\textcolor{red}1\textcolor{red}1} (0.5,2.5) node {\textcolor{red}1} (0.5,3.5) node {\textcolor{red}0} (1.5,3.5) node {\textcolor{red}4} (2.5,2.5) node {13} (3.5,2.5) node {9} (3.5,3.5) node {8};
+\draw (0.5,0.5)  node {\textcolor{red}8} (1.5,0.5) node {\textcolor{red}9} (2.5,0.5) node {\textcolor{red}1\textcolor{red}1} (0.5,1.5) node {12} (1.5,2.5) node {5} (2.5,3.5) node {3} (3.5,0.5) node {\textcolor{red}1\textcolor{red}0} (1.5,1.5) node {\textcolor{red}1\textcolor{red}3} (2.5,1.5) node {\textcolor{red}1\textcolor{red}5} (3.5,1.5) node {\textcolor{red}1\textcolor{red}4} (0.5,2.5) node {\textcolor{red}4} (0.5,3.5) node {\textcolor{red}0} (1.5,3.5) node {\textcolor{red}1} (2.5,2.5) node {7} (3.5,2.5) node {6} (3.5,3.5) node {2};
 
 \end{tikzpicture}
 
