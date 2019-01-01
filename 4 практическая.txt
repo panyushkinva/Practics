@@ -1,12 +1,17 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
 \usepackage[english,russian]{babel}
 \usepackage{tikz}
+\usepackage{colortbl}
 \usepackage[european,cuteinductors,smartlabels]{circuitikz}
-\title{Практическая работа №4}
+\usepackage{xcolor}
+\title{Практическая работа №5}
 \author{П\'{а}нюшкин Вячеслав (8871)}
 \begin{document}
 \maketitle
-Поворот молекулы метана на 
-\alpha=\frac{-2\cdot \pi}{3} ; \beta=\frac{-5\cdot \pi}{6} \\
+Поворот молекулы метана на
+$\alpha=\frac{-2\cdot \pi}{3}$, $\beta=\frac{-5\cdot \pi}{6}$ \\
 
 
 \begin{tikzpicture}
@@ -14,7 +19,7 @@
 \draw [rounded corners=4pt,color=white,ball color=red,smooth] (3.1,1.9,0.4)
 circle (2.3) node {C};
 
-\draw [rounded corners=4pt,color=white,ball color=grey,smooth] (2.6,4.5,3)
+\draw [rounded corners=4pt,color=white,ball color=grey,smooth] (4.7,4.5,5.5)
 circle (1.4) node {H};
 
 
