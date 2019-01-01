@@ -15,23 +15,24 @@ $\alpha=\frac{-2\cdot \pi}{3}$, $\beta=\frac{-5\cdot \pi}{6}$ \\
 
 
 \begin{tikzpicture}
-\begin{scope}[xscale=1,yscale=1]
-\draw [rounded corners=4pt,color=white,ball color=red,smooth] (3.1,1.9,0.4)
-circle (2.3) node {C};
 
-\draw [rounded corners=4pt,color=white,ball color=grey,smooth] (4.7,4.5,5.5)
+\draw [rounded corners=4pt,color=white,ball color=grey,smooth] (2.59,4.5,-3)
 circle (1.4) node {H};
 
-
-\draw [rounded corners=4pt,color=white,ball color=grey,smooth] (5.8,-0.34,1.5)
+\draw [rounded corners=4pt,color=white,ball color=grey,smooth] (5.79,-0.34,-1.5)
 circle (1.4) node {H};
-
-\draw [rounded corners=4pt,color=white,ball color=grey,smooth] (4,3.5,-2.7)
-circle (1.4) node {H};
-
 
 \draw [rounded corners=4pt,color=white,ball color=grey,smooth] (0,0,0)
 circle (1.4) node {H};
+
+\begin{scope}[xscale=1,yscale=1]
+\draw [rounded corners=4pt,color=white,ball color=red,smooth] (2.49,0.85,-2.56)
+circle (2.7) node {C};
+
+
+\draw [rounded corners=4pt,color=white,ball color=grey,smooth] (1.57,-0.73,-5.74)
+circle (1.4) node {H};
+
 \end{scope}
 \end{tikzpicture}
 
