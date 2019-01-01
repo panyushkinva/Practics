@@ -6,7 +6,7 @@
 \usepackage{colortbl}
 \usepackage[european,cuteinductors,smartlabels]{circuitikz}
 \usepackage{xcolor}
-\title{Практическая работа №5}
+\title{Практическая работа №4}
 \author{П\'{а}нюшкин Вячеслав (8871)}
 \begin{document}
 \maketitle
