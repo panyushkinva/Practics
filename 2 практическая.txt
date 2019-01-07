@@ -40,10 +40,10 @@
 
 \draw[thin,dashed,red] ({\D*cos(\alfa) },{\D*sin(\alfa) }) -- ({\D*cos(\alfa) },0)node[at end,below] {$x_1$};
 
-\draw[thin]({\D*cos(\alfa) },{\D*sin(\alfa) }) -- (4.85,0) node[at end,below] {$x^1$};
+\draw[thin]({\D*cos(\alfa) },{\D*sin(\alfa) }) -- (4.89,0) node[at end,below] {$x^1$};
 
 \draw[thin,dashed,red]({\D*cos(\alfa) },{\D*sin(\alfa) }) --
-({3.78*cos(70) },{3.6*sin(70) }) node[at end,left] {$x_2$};
+({3.78*cos(70) },{3.85*sin(70) }) node[at end,left] {$x_2$};
 
 \draw[thin]({\D*cos(\alfa) },{\D*sin(\alfa) }) --
 ({0.75*cos(\teta) },{\D*sin(\alfa) }) node[at end,left] {$x^2$};
@@ -63,4 +63,3 @@
 \end{tikzpicture}
 
 \end{document}
-
