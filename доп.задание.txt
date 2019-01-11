@@ -1,0 +1,32 @@
+\documentclass[a4paper,11pt]{article}
+
+\usepackage[T2A]{fontenc}
+
+\usepackage[utf8]{inputenc}
+
+\usepackage[english,russian]{babel}
+
+\usepackage{tikz}
+
+\usepackage[european,cuteinductors,smartlabels]{circuitikz}
+
+
+\begin{document}
+
+
+\begin{tikzpicture}[scale=1]
+
+\newcommand{\alfa}{-78}
+\newcommand{\tetta}{165}
+
+\draw[rotate=\tetta] ({0*(cos(\alfa)-sin(\alfa))},0,{0*(cos(\alfa)+sin(\alfa))}) -- ({10*(cos(\alfa)-sin(\alfa))},0,{0*(cos(\alfa)+sin(\alfa))});
+\draw[rotate=\tetta] ({10*(cos(\alfa)-sin(\alfa))},0,{0*(cos(\alfa)+sin(\alfa))}) -- ({10*(cos(\alfa)-sin(\alfa))},0,{5*(cos(\alfa)+sin(\alfa))});
+\draw[rotate=\tetta] ({10*(cos(\alfa)-sin(\alfa))},0,{5*(cos(\alfa)+sin(\alfa))}) -- ({0*(cos(\alfa)-sin(\alfa))},0,{5*(cos(\alfa)+sin(\alfa))});
+\draw[rotate=\tetta] ({0*(cos(\alfa)-sin(\alfa))},0,{5*(cos(\alfa)+sin(\alfa))}) -- ({0*(cos(\alfa)-sin(\alfa))},0,{0*(cos(\alfa)+sin(\alfa))});
+\draw[rotate=\tetta] ({0*(cos(\alfa)-sin(\alfa))},0,{0*(cos(\alfa)+sin(\alfa))}) -- ({0*(cos(\alfa)-sin(\alfa))},1,{0*(cos(\alfa)+sin(\alfa))});
+\draw[rotate=\tetta] ({0*(cos(\alfa)-sin(\alfa))},0,{5*(cos(\alfa)+sin(\alfa))}) -- ({0*(cos(\alfa)-sin(\alfa))},1,{5*(cos(\alfa)+sin(\alfa))});
+\draw[rotate=\tetta] ({0*(cos(\alfa)-sin(\alfa))},1,{5*(cos(\alfa)+sin(\alfa))}) -- ({0*(cos(\alfa)-sin(\alfa))},1,{0*(cos(\alfa)+sin(\alfa))});
+
+
+\end{tikzpicture}
+\end{document}
